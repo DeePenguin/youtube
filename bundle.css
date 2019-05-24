@@ -111,6 +111,18 @@
   outline: none;
 }
 
+@media (max-width: 550px) {
+  .search-wrapper {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .search-wrapper {
+    font-size: 0.8rem;
+  }
+}
+
 .clip-list {
   --clips-count: 0;
   --position: 0;
